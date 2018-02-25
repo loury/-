@@ -1,0 +1,146 @@
+/* 导航栏 */
+.message{
+  width: 100px;
+  height: 40px;
+}
+.user{
+  width:110px;
+  height: 40px;
+}
+.us_head{
+  border-radius: 20px;
+}
+.us_name, .me_name{
+  margin: 0 10px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.3em;
+}
+.me_head{
+  padding: 7px 0;
+}
+
+/* 消息弹出框 */
+.me_popup li:hover{
+  background: #d2ecfb ;
+}
+
+
+/* 用户弹出框 */
+.us_popup{
+  width: 220px;
+  height: 220px;
+  top: 40px;
+  right: 50px;
+  position: fixed;
+  z-index: 1;
+  background: #d7eaf9;
+  border-radius: 5px; 
+}
+.sign_box{
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.3em;
+  background: #a5d8f7 ;
+  padding: 0 10px 0 10px;
+  color: #111111 ;
+  border-radius: 5px; 
+}
+.sign_btn{
+  font-size: 1.4em;
+  cursor:pointer;
+}
+.us_popup_btn{
+  width: 110px;
+  padding: 5px 0;
+  float: left;
+  color: #94cbec ;
+  cursor:pointer;
+}
+.us_popup_btn img{
+  margin: 0 auto;
+  display: block;
+}
+.us_popup_font{
+  width: 110px;
+  text-align: center;
+  font-size: 1.4em;
+}
+.us_popup_btn:hover{
+  background: #b9def5 ;
+}
+.me_popup{
+  width: 100px;
+  height: 130px;
+  top: 40px;
+  right: 5px;
+  background: #fafdff;
+  box-shadow: -1px 0px 5px #d8e4ec;
+  position: fixed;
+}
+.me_popup li{
+  padding: 5px;
+  cursor:pointer;
+}
+/* 左侧边栏 */
+.m_left{
+  width: 200px;
+  height: 600px;
+  margin: 0 0 0 200px;
+  position: fixed;
+  top: 40px;
+  background: #93cef2;
+  color: #ffffff;
+}
+.m_left div{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.3em;
+  float: none;
+  cursor: pointer;
+}
+.m_left div:hover{
+  background: #76c3f3;
+  box-shadow: -1px -1px 1px #7bc0ea;
+}
+.m_left_select{
+  background: #76c3f3;
+  box-shadow: -1px -1px 1px #7bc0ea;
+}
+.at_me_m div{
+  font-size: 0.7em;
+  height: 30px;
+}
+
+.active{
+  margin: 0 70px 0 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.passive{
+  margin: 0 70px 0 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.upper{
+  color: red;
+}
+.co_article_m{
+  height: 132px;
+  margin: 0 50px;
+  padding: 10px;
+  background: #c5e1f3;
+  border-radius: 10px;
+}
+/* 粉丝 */
+.in_text{
+  top: -55px;
+  left: 50px;
+}
+.info div{
+  float: none;
+}
